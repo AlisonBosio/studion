@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "\u0016Homepage for Studion Event Provider and Services",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlisonBosio/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Alison Bosio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlisonBosio/studion/issues"
+  },
+  "homepage": "https://github.com/AlisonBosio/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
