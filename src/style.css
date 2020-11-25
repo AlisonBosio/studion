@@ -83,10 +83,6 @@ ul {
   color: #fff;
 }
 
-#slider h6 {
-  margin: 0;
-}
-
 .slide {
   position: relative;
   height: calc(100vh - 7.75rem);
@@ -101,6 +97,49 @@ ul {
 
 .slide__copy {
   position: absolute;
-  top: 0;
+  top: 6.25rem;
   left: 50vw;
 }
+
+.slide__copy h6 {
+    font-size: .9375rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1875rem;
+}
+
+.slide__copy h2 {
+    font-size: 6.25rem;
+    text-transform: uppercase;
+    line-height: 6.25rem;
+}
+
+.slide__copy h2 span {
+    display: block;
+}
+
+.btn {
+    padding: 1.25rem 2.5rem;
+    border: .200rem solid #fff;
+    border-radius:2rem ;    
+    color: var(--color-primary);
+    background: unset;
+    font-size: .9375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+
+.btn:hover, 
+.btn:active, 
+.btn:focus {
+    border-color: var(--color-primary);
+    background-color: var(--color-primary);
+    color: #fff;
+
+}
+
+
+
+
