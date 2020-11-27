@@ -9,27 +9,29 @@
 
   <body>
     <nav class="navbar">
-      <h1 class="logo-studion">
-        Studi<span class="copy--primary">on</span
-        ><span class="logo-studion__subtitle">Eventos</span>
-      </h1>
-      <ul class="navbar__links">
-        <li>
-          <a href="#empresa"> Empresa </a>
-        </li>
-        <li>
-          <a href="#eventos"> Eventos </a>
-        </li>
-        <li>
-          <a href="#galeria"> Galeria </a>
-        </li>
-        <li>
-          <a href="#depoimentos"> Depoimentos </a>
-        </li>
-        <li>
-          <a href="#contatos"> Contatos </a>
-        </li>
-      </ul>
+      <div class="container navbar__container">
+        <h1 class="logo-studion">
+          Studi<span class="copy--primary">on</span
+          ><span class="logo-studion__subtitle">Eventos</span>
+        </h1>
+        <ul class="navbar__links">
+          <li>
+            <a href="#empresa"> Empresa </a>
+          </li>
+          <li>
+            <a href="#eventos"> Eventos </a>
+          </li>
+          <li>
+            <a href="#galeria"> Galeria </a>
+          </li>
+          <li>
+            <a href="#depoimentos"> Depoimentos </a>
+          </li>
+          <li>
+            <a href="#contatos"> Contatos </a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <header>
@@ -51,7 +53,7 @@
 
     <main>
       <section id="counter">
-        <ul class="counter__container">
+        <ul class="container counter__container">
           <li>
             <h3>+de 500
               <small>
@@ -76,24 +78,19 @@
         </ul>
       </section>
 
-      <section>
-        <div>
-          <img src="images/institutional.jpg" alt="" />
+      <section class=" container institutional">
+          <img class="institutional__image" src="images/institutional.jpg" alt="Studion Institutional" />
+        <div class="institutional__copy">
           <h6>Fazemos seu evento acontecer</h6>
-        </div>
-        <div>
-          <h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
-            soluta fuga.
-          </h4>
-        </div>
+          <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil.</h4>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi illo
           neque quisquam necessitatibus ullam quia veritatis quis ipsa, nobis
           rem sapiente aperiam adipisci repellendus eaque quas sit, amet ipsum
           optio.
         </p>
-        <button>Saiba Mais</button>
+        <button class="btn btn--institutional">Saiba Mais</button>
+        </div>
       </section>
 
       <section>
