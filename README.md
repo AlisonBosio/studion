@@ -4,7 +4,7 @@ _____
 
 ## How to work with the repository / Como trabalhar com o repositório.
 ### Clone the project / Clone o projeto
- - git clone https://github.com/todd7/studion.git
+ - git clone https://github.com/AlisonBosio/studion
 _____
 
 ### Install the project dependecies / Instalar as dependencias do projeto
