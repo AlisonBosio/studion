@@ -103,7 +103,7 @@ ul {
 
 .slide {
   position: relative;
-  height: calc(100vh - 7.75rem);
+  height: calc(110vh - 7.75rem);
 }
 
 .slide__background-image {
